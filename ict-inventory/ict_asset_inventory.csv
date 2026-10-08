@@ -1,0 +1,12 @@
+asset_id,category,manufacturer,model,form_factor,qty,location,ownership,status,criticality,serial,hostname,mgmt_ip,ilo_ip,role,photo,notes
+SRV-001,Server,HP,ProLiant ML310e Gen8 v2,Tower,1,Rack upper shelf left,Organization (assumed),ON,High,TBD,TBD,TBD,TBD,TBD,Photo 1,Intel Xeon; DVD-RW; 4x USB; twin of SRV-002
+SRV-002,Server,HP,ProLiant ML310e Gen8 v2,Tower,1,Rack upper shelf right,Organization (assumed),ON,High,TBD,TBD,TBD,TBD,TBD,Photo 1,Identical twin of SRV-001
+FW-001,Firewall/UTM,Cyberoam,CR 50iNG,1U rack,1,Mid rack below servers,Organization (assumed),ON,Critical,TBD,TBD,TBD,N/A,Perimeter firewall/UTM,Photo 1+2,EOL platform - plan replacement; 8x GbE + console + USB
+SW-001,Network Switch,TRENDnet,TPE-TG240g,1U rack PoE+,1,Below Cyberoam,Organization (assumed),ON many ports active,Critical,TBD,TBD,TBD,N/A,LAN aggregation / PoE,Photo 1+2,24-port Gigabit PoE+; confirm unmanaged vs web-smart
+RTR-002,Router,MikroTik,Likely hEX S (RB760iGS) or similar,Desktop/shelf,1,Shelf below switch,Organization (assumed),Appears ON,Medium-High,TBD,TBD,TBD,N/A,TBD (VPN/VLAN/routing),Photo 1,5x RJ45 + SFP + console visible
+RTR-001,ISP CPE / ONT / Wi-Fi gateway,ZOL-provided,Exact model unread,Desktop gateway,1,Lower shelf,ISP (ZOL) - custodied,In service,Critical,TBD,N/A,TBD WAN/LAN,N/A,Internet edge,Photo 1+2,PROPERTY OF ZOL; yellow fiber attached
+NET-003,Network appliance,Unknown,TBD silver chassis,Desktop,1,Lower shelf beside ZOL,TBD,ON,Medium,TBD,TBD,TBD,N/A,TBD,Photo 2,Multiple Ethernet + USB; antennas nearby
+NET-002,Wireless router/AP (tentative),Unknown,TBD,Desktop Wi-Fi,1,Mid/lower cable area,TBD,Cabled,Medium,TBD,TBD,TBD,N/A,Secondary Wi-Fi?,Photo 1 partial,Confirm distinct device; remove if unused
+PC-001,Workstation/small server,HP,TBD mesh-front tower/SFF,Tower/SFF,1,Rack bottom (Photo 2),Organization (assumed),ON,Medium-High,TBD,TBD,TBD,N/A,TBD,Photo 2,Separate from ML310e pair until confirmed
+RACK-001,Enclosure,Unknown,19-inch rack + top fans,Floor/cabinet rack,1,ICT room,Organization (assumed),In use,High,TBD,N/A,N/A,N/A,Housing,Photo 1+2,Add PDU/UPS to inventory if present
+CAB-LOT-001,Cabling,Various,Cat5e/Cat6 + yellow fiber,Patch leads,Lot,Throughout rack,Organization (assumed),In use disorganized,Medium,N/A,N/A,N/A,N/A,Passive plant,Photo 1+2,Needs patch panel and port map

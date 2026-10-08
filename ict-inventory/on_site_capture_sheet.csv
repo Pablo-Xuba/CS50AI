@@ -1,0 +1,11 @@
+asset_id,confirmed_model,serial_number,asset_tag,hostname,mgmt_ip,ilo_or_ipmi,mac_addresses,os_firmware,role_function,owner_department,purchase_date,warranty_expiry,switch_port,vlan,backup_status,notes,captured_by,capture_date
+SRV-001,,,,,,,,,,,,,,,,,,
+SRV-002,,,,,,,,,,,,,,,,,,
+FW-001,,,,,,,,,,,,,,,,,,
+SW-001,,,,,,,,,,,,,,,,,,
+RTR-002,,,,,,,,,,,,,,,,,,
+RTR-001,,,,,,,,,,,,,,,,,,
+NET-003,,,,,,,,,,,,,,,,,,
+NET-002,,,,,,,,,,,,,,,,,,
+PC-001,,,,,,,,,,,,,,,,,,
+RACK-001,,,,,,,,,,,,,,,,,,
